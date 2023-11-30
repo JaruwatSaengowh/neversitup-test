@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"regexp"
+	"strings"
 )
 
 func CountSmilyFace(text []string) int {
@@ -18,6 +19,10 @@ func CountSmilyFace(text []string) int {
 	return count
 }
 
+func formatTestCase(testCase []string) string {
+	return fmt.Sprintf("['%s']", strings.Join(testCase, "', '"))
+}
+
 func main() {
 	testCases := [][]string{
 		{":)", ";(", ";}", ":-D"},
@@ -27,6 +32,7 @@ func main() {
 
 	for _, testCase := range testCases {
 		expectedResult := CountSmilyFace(testCase)
-		fmt.Printf("countSmileys(%v) // should return %d;\n", testCase, expectedResult)
+		fmt.Printf("countSmileys(%v) // should return %d;\n", formatTestCase(testCase), expectedResult)
 	}
 }
+
