@@ -35,4 +35,3 @@ func main() {
 		fmt.Printf("countSmileys(%v) // should return %d;\n", formatTestCase(testCase), expectedResult)
 	}
 }
-

@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
-func FindOddNumber(text []int) int  {
+func FindOddNumber(text []int) int {
 	frequency := make(map[int]int)
 
-    for _, num := range text {
+	for _, num := range text {
 		frequency[num]++
 	}
 
@@ -18,6 +19,20 @@ func FindOddNumber(text []int) int  {
 	}
 
 	return 0
+}
+
+func frequency(arr []int, num int) int {
+	count := 0
+	for _, value := range arr {
+		if value == num {
+			count++
+		}
+	}
+	return count
+}
+
+func formatTestCase(testCase []int) string {
+	return fmt.Sprintf("[%s]", strings.Trim(strings.Join(strings.Fields(fmt.Sprint(testCase)), ", "), "[]"))
 }
 
 func main() {
@@ -31,16 +46,8 @@ func main() {
 
 	for _, testCase := range testCases {
 		expectedResult := FindOddNumber(testCase)
-		fmt.Printf("%v should return %d, because it occurs %d time(s) (which is odd).\n", testCase, expectedResult, frequency(testCase, expectedResult))
+		count := frequency(testCase, expectedResult)
+		fmt.Printf("%v should return %d, because it occurs %d time (which is odd).\n", formatTestCase(testCase), expectedResult, count)
 	}
 }
 
-func frequency(arr []int, num int) int {
-	count := 0
-	for _, value := range arr {
-		if value == num {
-			count++
-		}
-	}
-	return count
-}
