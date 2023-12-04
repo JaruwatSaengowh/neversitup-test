@@ -1,0 +1,14 @@
+C:\dev\dev\test-ptt\NSCII\NSCII\bin\Debug\net6.0\NSCII.exe
+C:\dev\dev\test-ptt\NSCII\NSCII\bin\Debug\net6.0\NSCII.deps.json
+C:\dev\dev\test-ptt\NSCII\NSCII\bin\Debug\net6.0\NSCII.runtimeconfig.json
+C:\dev\dev\test-ptt\NSCII\NSCII\bin\Debug\net6.0\NSCII.dll
+C:\dev\dev\test-ptt\NSCII\NSCII\bin\Debug\net6.0\NSCII.pdb
+C:\dev\dev\test-ptt\NSCII\NSCII\obj\Debug\net6.0\NSCII.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\dev\test-ptt\NSCII\NSCII\obj\Debug\net6.0\NSCII.AssemblyInfoInputs.cache
+C:\dev\dev\test-ptt\NSCII\NSCII\obj\Debug\net6.0\NSCII.AssemblyInfo.cs
+C:\dev\dev\test-ptt\NSCII\NSCII\obj\Debug\net6.0\NSCII.csproj.CoreCompileInputs.cache
+C:\dev\dev\test-ptt\NSCII\NSCII\obj\Debug\net6.0\NSCII.dll
+C:\dev\dev\test-ptt\NSCII\NSCII\obj\Debug\net6.0\refint\NSCII.dll
+C:\dev\dev\test-ptt\NSCII\NSCII\obj\Debug\net6.0\NSCII.pdb
+C:\dev\dev\test-ptt\NSCII\NSCII\obj\Debug\net6.0\NSCII.genruntimeconfig.cache
+C:\dev\dev\test-ptt\NSCII\NSCII\obj\Debug\net6.0\ref\NSCII.dll
